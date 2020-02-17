@@ -53,7 +53,7 @@ function total() {
   return total;
 }
 
-function removeFromCart(item) {
+function removeFromCart(itemName) {
   // write your code here
   var devuelve = 'That item is not in your cart.';
 
