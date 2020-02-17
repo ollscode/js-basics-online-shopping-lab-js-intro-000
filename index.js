@@ -56,7 +56,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var devuelve = 'That item is not in your cart.';
-  
+
   var searchResult;
   for (var i=0; i<getCart().length; i++) {
     if (getCart()[i].itemName === itemName) {searchResult = getCart()[i]};
@@ -69,7 +69,7 @@ function removeFromCart(item) {
 
     devuelve = searchResult;
   }
-  
+
   return devuelve;
 }
 
