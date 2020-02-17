@@ -65,7 +65,7 @@ function removeFromCart(itemName) {
   if (searchResult) {
     indexOfItemToRemove = cart.indexOf(searchResult);
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
-    getCart().splice(indexOfItemToRemove,1);
+    cart.splice(indexOfItemToRemove,1);
 
     devuelve = searchResult;
   }
