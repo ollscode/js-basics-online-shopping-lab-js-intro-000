@@ -77,7 +77,8 @@ function placeOrder(cardNumber) {
   // write your code here
   var devuelve;
 
-  if (cardNumber) {
+  //if (cardNumber) {
+  if (arguments[0] == undefined) {
     devuelve = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
 
     cart = [];
