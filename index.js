@@ -63,7 +63,7 @@ function removeFromCart(itemName) {
   }
 
   if (searchResult) {
-    indexOfItemToRemove = cart.indexOf(searchResult);
+    var indexOfItemToRemove = cart.indexOf(searchResult);
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
     cart.splice(indexOfItemToRemove,1);
 
